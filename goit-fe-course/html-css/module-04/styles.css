@@ -1,0 +1,274 @@
+html{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+    
+/* HEADER */
+
+.header{
+    padding-top: 42px;
+}
+
+.site-logo{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 38px;
+  color: #525252;
+  float: left;
+}
+
+.site-logo::first-letter{
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.site-navigation{
+    float: right;
+    width: 475px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.navigation-item {
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    margin-right: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.navigation-item:last-child{
+    margin-right: 0;
+}
+
+
+.navigation-link{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation-link:hover,
+.navigation-link:focus{
+    color: #1abc9c;
+}
+
+/* MAIN */
+.products{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.products h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 32px;
+    color: #515151;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}
+
+.products h2::after{
+    display: block;
+    content: '';
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto; 
+    margin-top: 32px;
+
+}
+
+.products-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.products-list-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.products-list-item a:hover .product-name{
+    background-color: #1abc9c;
+}
+
+.products-list-item a:hover .product-price{
+    background-color: #7fd9c7;
+}
+
+.products-list-item{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.products-list-item:nth-child(4n+4){
+    margin-right: 0;
+}
+
+.products-list-item:nth-child(n+5){
+    margin-bottom: 0;
+}
+
+
+.product-name{
+    width: 187px;
+    height: 36px;
+    background-color: #323232;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 900;
+    float: left;
+    /* КОСТЫЛЬ */
+    margin: 0;   
+    padding-left: 14px;
+    padding-top: 4px;
+}
+
+.product-price{
+    width: 54px;
+    height: 36px;
+    background-color: #8c8c8c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 900;
+    float: left;
+    /* КОСТЫЛЬ */
+    margin: 0;  
+    padding-top: 4px;
+    text-align: center;
+    
+}
+
+.news{
+    padding-bottom: 46px;
+}
+
+.news h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 32px;
+    color: #555252;
+    text-transform: uppercase;
+    margin-bottom: 81px;
+}
+
+.news h2::after{
+    display: block;
+    content: '';
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto; 
+    margin-top: 32px;
+
+}
+
+.news-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.news-list-item{
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+
+.news-list-item:last-child{
+    margin-right: 0;
+}
+
+.news-list-item h3 p {
+margin: 0;
+}
+
+.news-list img 
+{
+    margin-bottom: 18px;
+}
+
+.news-title{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #555252;
+    margin-bottom: 22px;
+}
+
+.news-title::after{
+    display: block;
+    content: '';
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    margin-top: 11px;
+
+}
+
+.news-description{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #555252;
+    margin-bottom: 14px;
+}
+
+.news-list-item a{
+    display: block;
+}
+
+.link{
+    padding: 0;
+    margin: 0;
+    background-color: #4ec6ab;
+    border-radius: 2px;
+    border: none;
+    width: 159px;
+    line-height: 51px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    /* margin-bottom: 46px; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.link:hover{
+    background-color: rgba(0,0,0,0.1);
+}
