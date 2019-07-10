@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+    .header {
+        background-image: url(../img/header-img-tablet.jpg);
+        padding-top: 50px;
+        margin-bottom: 75px;
+    }
+
+    .navigation {
+        margin-bottom: 158px !important;
+    }
+
+    .header-title-1 {
+        font-size: 52px;
+        line-height: 62px;
+        padding-bottom: 40px;
+    }
+
+    .header-title-2 {
+        font-size: 22px;
+        line-height: 26px;
+        padding-bottom: 36px;
+    }
+
+    .partners-title {
+        margin-bottom: 36px;
+    }
+
+    .partners-list {
+        margin-bottom: 38px;
+    }
+
+    .partners-list li:nth-child(-n + 2) {
+        margin-bottom: 60px;
+    }
+
+    .partners-list p {
+        margin-bottom: 0;
+    }
+
+    .partners-button {
+        width: 192px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        background-image: url(../img/header-img-desctop.jpg);
+    }
+
+    .partners-list li:nth-child(-n + 2) {
+        margin-bottom: 0px;
+    }
+}
