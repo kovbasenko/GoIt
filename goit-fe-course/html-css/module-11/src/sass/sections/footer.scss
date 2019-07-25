@@ -1,0 +1,53 @@
+.footer {
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e7e7e7;
+
+    &__text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #333333;
+    }
+    
+    &__link {
+        color: #f38181;
+    }
+    
+    &__form {
+        display: flex;
+    }
+    
+}
+
+input[type = "email"] {
+    height: 40px;
+    width: 229px;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    position: relative;
+}
+
+input[type = "submit"] {
+    background-color: #95e1d3;
+    height: 40px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
+
+input[type="email"]::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #e7e7e7;
+    line-height: 40px;
+    padding-left: 13px;
+}
