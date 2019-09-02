@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JS Homework 7</title>
+</head>
+<body>
+  <!-- TASK 1 -->
+  <ul id="categories">
+    <li class="item">
+      <h2>Животные</h2>
+  
+      <ul>
+        <li>Кот</li>
+        <li>Хомяк</li>
+        <li>Лошадь</li>
+        <li>Попугай</li>
+      </ul>
+    </li>
+    
+    <li class="item">
+      <h2>Продукты</h2>
+  
+      <ul>
+        <li>Хлеб</li>
+        <li>Петрушка</li>
+        <li>Творог</li>
+      </ul>
+    </li>
+    
+    <li class="item">
+      <h2>Технологии</h2>
+  
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node</li>
+      </ul>
+    </li>
+  </ul>
+  <!-- TASK 2 -->
+  <ul id="ingredients"></ul>
+  <!-- TASK 3 -->
+  <ul id="gallery" style="list-style: none;"></ul>
+  <!-- TASK 4 -->
+  <div id="counter">
+    <button type="button" data-action="decrement">-1</button>
+    <span id="value">0</span>
+    <button type="button" data-action="increment">+1</button>
+  </div>
+  <!-- TASK 5 -->
+  <input style="margin-top: 20px;" type="text" placeholder="Ваше имя?" id="name-input" />
+  <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+  <!-- TASK 6 -->
+  <input
+  type="text"
+  id="validation-input"
+  data-length="6"
+  placeholder="Введи 6 символов"
+/>
+  <!-- TASK 7 -->
+  <br />
+  <input id="font-size-control" type="range" />
+  <br />
+  <span id="text">Абракадабра!</span>
+  <!-- TASK 8 -->
+  <div style="margin-top: 30px;" id="controls">
+    <input type="number" min="0" max="100" step="1" />
+    <button type="button" data-action="render">Создать</button>
+    <button type="button" data-action="destroy">Очистить</button>
+  </div>
+  
+  <div id="boxes"></div>
+
+  <!-- <script src="task-1.js" type="module"></script>
+  <script src="task-2.js" type="module"></script>
+  <script src="task-3.js" type="module"></script>
+  <script src="task-4.js" type="module"></script>
+  <script src="task-5.js" type="module"></script>
+  <script src="task-6.js" type="module"></script>
+  <script src="task-7.js" type="module"></script> -->
+  <script src="task-8.js" type="module"></script>
+</body>
+</html>
