@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+}
+
+button:nth-child(1) {
+  margin-left: 50vw;
+  margin-top: 50vh;
+}
