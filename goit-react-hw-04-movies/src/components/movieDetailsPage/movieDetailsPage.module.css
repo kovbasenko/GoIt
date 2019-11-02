@@ -1,0 +1,38 @@
+.movieDetailsPage {
+  padding: 10px; 
+}
+
+.image {
+  display: block;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin: 5px 0;
+}
+
+.movieText {
+  padding: 10px;
+}
+
+.genres {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.genres::after {
+  content: "";
+  margin-top: 6px;
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: 2px;
+  background-color: rgb(112, 112, 112);
+}
+
+.link {
+  padding-left: 10px;
+  padding-top: 10px;
+}

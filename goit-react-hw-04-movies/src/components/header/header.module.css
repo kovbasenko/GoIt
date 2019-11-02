@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header::after {
+  content: "";
+  margin-top: 6px;
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: 2px;
+  background-color: rgb(112, 112, 112);
+}
+
+.headerLink {
+  font-size: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.activeLink {
+  color: rgb(155, 24, 1);
+}
